@@ -1,0 +1,55 @@
+body {
+    background-color: #fff8e1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .coffee-text {
+    color: #332924; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #d2b48c; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .timer {
+    font-size: 72px;
+    color: #fff; 
+  
+  button {
+    background-color: #c0a478; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+  }
+  
+  button:hover {
+    background-color: #a08a63; 
+  }
+  
+  #count_list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #count_list li {
+    margin: 5px;
+    font-weight: bold;
+  }
